@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form 2</title>
+</head>
+<body>
+    <h2>Engineering Student Registration</h2>
+    <form action="linkreg.html" method="post">
+        <table border="5">
+            <tr>
+                <td>First:</td>
+                <td><input type="text" name="fname"required></td>
+                <td>Middle:</td>
+                <td><input type="text" name="mname"required></td>
+                <td>Last:</td>
+                <td><input type="text" name="lname"required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td colspan="5">
+                    Male <input type="radio" name="gender" value="M"required>
+                    Female <input type="radio" name="gender" value="F"required>
+                    Other <input type="radio" name="gender" value="O"required>
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td colspan="5"><input type="text" name="address" size="50"required></td>
+            </tr>
+            <tr>
+                <td>Pincode:</td>
+                <td colspan="5">
+                    <select name="pin">
+                        <option value="">Choose Pincode</option>
+                        <option value="400001">400001 - Mumbai</option>
+                        <option value="411001">411001 - Pune</option>
+                        <option value="500001">500001 - Hyderabad</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>College:</td>
+                <td colspan="5"><input type="text" name="college" size="50"required></td>
+            </tr>
+            <tr>
+                <td>Branch:</td>
+                <td colspan="5">
+                    <select name="branch">
+                        <option value="">Select Engineering Branch</option>
+                        <option value="Computer">Computer Engineering</option>
+                        <option value="Electronics">Electronics Engineering</option>
+                        <option value="Mechanical">Mechanical Engineering</option>
+                        <option value="Civil">Civil Engineering</option>
+                        <option value="IT">Information Technology</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Skills:</td>
+                <td colspan="5">
+                    Java <input type="checkbox" name="skill1" value="java">
+                    PHP <input type="checkbox" name="skill2" value="php">
+                    React <input type="checkbox" name="skill3" value="react">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

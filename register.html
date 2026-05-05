@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form 1</title>
+</head>
+<body>
+    <h2>Student Registration</h2>
+    <form action="https://example.com/submit" method="post">
+        First Name: <input type="text" name="first"><br><br>
+        Middle Name: <input type="text" name="middle"><br><br>
+        Last Name: <input type="text" name="last"><br><br>
+        
+        Gender: 
+        Male <input type="radio" name="gender" value="male">
+        Female <input type="radio" name="gender" value="female">
+        Other <input type="radio" name="gender" value="other"><br><br>
+        
+        Address: <input type="text" name="address"><br><br>
+        
+        Pincode:
+        <select name="pincode">
+            <option value="">Select</option>
+            <option value="411001">411001</option>
+            <option value="411002">411002</option>
+            <option value="411003">411003</option>
+        </select><br><br>
+        
+        College Name: <input type="text" name="college"><br><br>
+        
+        Branch:
+        <select name="branch">
+            <option value="">Select Branch</option>
+            <option value="CSE">Computer Science</option>
+            <option value="ECE">Electronics</option>
+            <option value="ME">Mechanical</option>
+            <option value="CE">Civil</option>
+        </select><br><br>
+        
+        Technical Skills:
+        HTML <input type="checkbox" name="skills" value="html">
+        CSS <input type="checkbox" name="skills" value="css">
+        JS <input type="checkbox" name="skills" value="js">
+        Python <input type="checkbox" name="skills" value="python"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
