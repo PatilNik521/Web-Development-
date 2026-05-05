@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="librarys.xslt"?>
+<library>
+    <book>
+        <title>Library Code</title>
+        <author>Robert C. Martin</author>
+        <price>450</price>
+    </book>
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <price>550</price>
+    </book>
+    <book>
+        <title>Introduction to Algorithms</title>
+        <author>Thomas H. Cormen</author>
+        <price>800</price>
+    </book>
+    <book>
+        <title>Introduction to Web Development</title>
+        <author>Bill H. Corts</author>
+        <price>900</price>
+    </book>
+</library>
